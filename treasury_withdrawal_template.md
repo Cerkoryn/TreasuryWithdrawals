@@ -47,6 +47,6 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
 
 ## References
-- Constitution: constitution.md (Article IV, Sections 2–5; Guardrails TREASURY-01a through TREASURY-04a)
-- Approved Budget: budget.txt (Budget Info Action; NCL clause)
-- Approved Proposals List: proposals.csv
+- Constitution Hash: 8c653ee5c9800e6d31e79b5a7f7d4400c81d44717ad4db633dc18d4c07e4a4fd00
+- Approved Net Change Limit Hash: 9b62b3c632f329016a968ac25211825bb4f84b12461121c7da3aa11df92370f900
+- Approved Budget Hash: e14de8d9dc4f4ddf3fe9250a8a926e20f10e99b86bd0610b77d7a054981591ee00
