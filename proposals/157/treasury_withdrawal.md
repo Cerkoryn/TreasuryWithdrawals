@@ -5,16 +5,18 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: Cardano Ecosystem Pavilions at Exhibitions
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 1,119,333 ADA (1119333000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** We propose to host Ecosystem Pavilions at numerous Exhibitions around the world. The funding will ensure that projects are able to have access to much more affordable prices to have a presence at the event. Non of the spots or travel budgets will be 100% funded. We will also be ensuring that projects that sign up understand the importance of pre event work, during the event work and follow up work to achieve the best possible ROI. The aim is that it will give projects a more affordable entry and education into how to truly make the most of exhibitions and marketing. 
+
+Please visit out website for a more thorough breakdown and explanation:
+- **Audit & Oversight Allocation:** 55966 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +52,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

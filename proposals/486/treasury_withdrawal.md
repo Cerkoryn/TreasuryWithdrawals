@@ -5,16 +5,16 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: Ledger App Rewrite
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 300,000 ADA (300000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** Work with Ledger team to design new UI according to the expectations. Implement new UI into the Cardano Ledger App. Pass the external audit process (costs for this shall be included in proposal). Support the Ledger team by the release process.
+- **Audit & Oversight Allocation:** 15000 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +50,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

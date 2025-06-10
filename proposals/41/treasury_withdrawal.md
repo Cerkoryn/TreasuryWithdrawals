@@ -5,16 +5,16 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: Pallas: Sustaining Critical Rust Tooling for Cardano
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 220,914 ADA (220914000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** This request for support focuses on Pallas (github.com/txpipe/pallas), a collection of Rust-native building blocks for the Cardano blockchain ecosystem. Pallas provides reusable components, such as cryptographic primitives and CBOR encoding, to enable the development of higher-level use cases like explorers and wallets. The project remains open-source, and actively welcomes contributions from the broader Cardano developer community. With 591 commits, over 430 pull requests, and 39 contributors, it stands as a strong example of open-source collaboration in the ecosystem. Pallas is being used by key projects in the ecosystem such as Aiken, Lucid, Mithril, Amaru, and many others. To ensure its continued evolution and maximize its impact, Pallas requires ongoing maintenance, updates, and new functionalities. We are requesting funding to secure the following roles assigned to the project: 0.5 FTE blockchain developer and 0.125 FTE tech lead.
+- **Audit & Oversight Allocation:** 11045 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +50,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

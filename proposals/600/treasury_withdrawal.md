@@ -5,16 +5,39 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: Expanding Stablecoin / Cardano Native Asset Support / Fiat Ramps
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 4,000,000 ADA (4000000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** The Cardano blockchain has emerged as a leading smart contract platform, offering scalability, security, and sustainability. However, despite its technological advantages, Cardano faces critical challenges in mainstream adoption, particularly in the areas of stablecoin liquidity, wallet support for native assets, exchange availability, and fiat on/off-ramps. These limitations hinder Cardano’s ability to compete with other major blockchains in real-world financial applications.
+This proposal seeks funding to address these challenges by:
+1. Expanding wallet and custodian support for Cardano native assets (including USDA, a Cardano-native stablecoin).
+2. Increasing the availability of Cardano stablecoins and native assets on exchanges and OTC desks.
+3. Driving real-world utility for USDA in cross-border payments, remittances, and enterprise settlements.
+4. Building cost-effective fiat on/off-ramps for ADA and Cardano native assets in frontier markets.
+By addressing these challenges, we aim to boost liquidity, accessibility, and adoption of Cardano’s DeFi and real-world use cases, bridging traditional finance with our open source blockchain-based payments 
+
+Problem Statements & Proposed Solutions
+1. Custody & Wallet Gaps: Cardano native assets lack support from institutional custodians like BitGo and Fireblocks, limiting exchange listings and adoption.
+Solution: Partner with custodians to integrate USDA and other assets, enable institutional-grade custody, and expand wallet compatibility.
+Impact: Boosted liquidity, institutional access, and DeFi growth.
+
+2. Exchange & OTC Access: Cardano assets remain underrepresented on CEXs and OTC desks, restricting liquidity and accessibility.
+Solution: Secure Exchange USDA listings (spot and derivatives), form OTC partnerships, and integrate with Neo Banks.
+Impact: Better price discovery, increased trading pairs, enhanced fiat liquidity, and wider market participation.
+
+3. Real-World Utility: Stablecoin use is mostly limited to crypto trading, despite Cardano’s efficient fee model.
+Solution: Enable B2B payments, remittances, payroll, and bill payments using USDA.
+Impact: Broader adoption beyond DeFi and stronger traditional finance integration.
+
+4. Fiat On/Off-Ramps: Users face high-cost (Fiat to ADA), limited access to convert ADA/native assets into fiat.
+Solution: Deploy low-cost onramps via bank transfers/mobile wallets; expand offramps (piloted via Yoroi).
+Impact: Reduced friction, deeper liquidity, and increased financial inclusion.
+- **Audit & Oversight Allocation:** 200000 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +73,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

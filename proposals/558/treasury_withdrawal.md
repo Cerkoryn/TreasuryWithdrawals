@@ -5,16 +5,18 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: zkFold ZK Rollup
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 1,161,000 ADA (1161000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** ZK rollups address the scalability problem. Hundreds of transactions can be submitted as a single batch, reducing the load on the L1. Cardano can achieve higher throughput and lower transaction costs.
+
+zkFold offers to build a general-purpose zero knowledge rollup solution for Cardano. A zero knowledge rollup is a technological layer (Layer 2) on top of a blockchain that increases the blockchain’s scalability potential by compressing many transactions into transaction batches. As batches offer a greater degree of information compression, it is reasonable to expect that hundreds of rollup smart contract transactions might fit into a single Cardano mainnet transaction. Zero knowledge proofs technology places a limit on the cost of on-chain verification of the validity of transaction batches. Specifically, the batch verification fits well within the Execution Unit limits set at the protocol level, as demonstrated by the prototype created by the zkFold team
+- **Audit & Oversight Allocation:** 58050 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +52,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

@@ -5,16 +5,16 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: Dolos: Sustaining a Lightweight Cardano Data Node
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 220,914 ADA (220914000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** This request for support focuses on Dolos (https://dolos.txpipe.io/), a lightweight Cardano data node, designed as a backend for dApps. It is fine-tuned to solve a very narrow scope: keeping an updated copy of the ledger and replying to queries from trusted clients. Unlike a full Cardano node, Dolos is optimized for minimal resource usage while maintaining high data integrity and responsiveness. As an open-source project, Dolos has been steadily growing in adoption, with 366 commits, 367 pull requests, and contributions from 21 developers. It is becoming a key tool for projects seeking efficient blockchain data access without the overhead of full-node infrastructure. To ensure Dolos continues to evolve alongside Cardano’s ecosystem, we are requesting funding for the following roles: 0.5 FTE Blockchain Developer and 0.125 FTE Tech Lead.
+- **Audit & Oversight Allocation:** 11045 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +50,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

@@ -5,16 +5,20 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: AdaStat.net Cardano blockchain explorer
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 212,000 ADA (212000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** We propose to continue development and support of the AdaStat.net Cardano blockchain explorer for the next 24 months. Planned work includes performance optimizations, improvements to UX/UI, and new features related to Cardano’s evolving governance model and on-chain tooling.
+
+The frontend is developed using Vue.js and Tailwind CSS, which allows very small bundle size and fast loading time on different devices. The backend is built on Node.js and PostgreSQL, combining standard DB-Sync tables with custom-optimized indexes for high-speed data access. This dual approach enables advanced search and filtering across both on-chain and off-chain metadata — including DRep names, stake pool tickers, token labels, and more.
+
+Infrastructure is horizontally scalable. Multiple backend servers work behind load balancer and handle traffic based on real-time utilization. This gives high availability and stable performance, even during peak usage.
+- **Audit & Oversight Allocation:** 10600 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +54,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

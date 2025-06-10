@@ -5,16 +5,31 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: Cardano Summit 2025 and regional tech events
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 6,000,000 ADA (6000000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** The 2025 Cardano Summit strategy features a hybrid event model: a flagship event + four regional events. Each event will have a lead organizer, with collaborative support from all partners. To ensure continuity and early planning for 2026, ticket sales will be used for the 2026 summit and its down payment.
+
+A 2-day Cardano Summit for over 800 people. 
+Hosted by the Cardano Foundation in Berlin in Nov 2025 (dates tbc). 
+
+A 2-day Cardano Tech ASIA (name tbd) targeting developers for 300+ people.
+Hosted by EMURGO in Bangalore in December 2025, coinciding with India Blockchain Week. 
+
+A 2-day Cardano Tech AFRICA (name tbd) targeting community and developers for 500 people
+Hosted by Wada in Kenya in September 2025.  
+
+A 2-day Cardano Tech USA (name tbd) targeting developers for 500 people
+Hosted by Rare Evo in Las Vegas on 7 August 2025. 
+
+A 2-day Cardano Tech LATAM (name tbd) targeting developers for 500 people
+Hosted by ADA SOLAR in LATAM October 2025.
+- **Audit & Oversight Allocation:** 300000 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +65,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

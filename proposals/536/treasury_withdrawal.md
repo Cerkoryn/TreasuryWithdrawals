@@ -5,16 +5,16 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: A free Native Asset CDN for Cardano Developers
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 605,000 ADA (605000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** Building reliable infrastructure to display Cardano native assets (NFTs &FTs) efficiently, at scale, can cost upwards of $100,000 and take 9+ months of development effort. **We propose to deliver a free Native Asset Content Delivery Network (CDN) for Cardano, by making our existing NFTCDN services free to use for anyone building on Cardano**. NFTCDN has been operating since 2022 and provides fast, reliable and resilient multimedia and metadata delivery through a globally distributed CDN, enabling projects to display native assets effortlessly. By removing technical and financial barriers, NFTCDN allows developers to focus on product innovation and growth, accelerate time-to-market, and promotes wider adoption and implementation of native assets within apps across the Cardano ecosystem.
+- **Audit & Oversight Allocation:** 30250 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +50,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

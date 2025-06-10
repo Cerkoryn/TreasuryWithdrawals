@@ -5,16 +5,72 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: Ecosystem Exchange Listing and Market Making service pool
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 3,126,000 ADA (3126000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** Flowdesk acts as a reference party that helps with engineering liquidity provision and listing of CNTs, assisting in:
+
+1- Exchange Listing Fee Pool: 
+
+Eligible exchanges are Kraken, Bybit, Okex and Binance (only top tier exchanges that are requiring new technical integration of CNT)
+
+Budget: Up to 1,500,000 USD (3m ADA at a reference price of 0.5 USD / ADA).
+
+Notes:
+- Top-tier exchanges might ask a listing fee > 500,000 USD. An indicative quote from one top-tier exchange would be around 1m USD of token allocation.
+- Not more than 500k USD (1m ADA) will be allocated for 1 CNT / Exchange.
+- Flowdesk acts as an actor of good faith to validate the budget allocated to a Cardano project for a listing.
+- Flowdesk does NOT receive any funds from the Intersect budget during this process (including no transaction fee, commission fee, etc.).
+- Flow for a Cardano project to request funds to get listed on an exchange:
+
+=> 1 Cardano project with a CNT
+
+=> Project agrees with the exchange on a listing offer
+
+=> Flowdesk Exchange Listing Criteria Assessment
+
+=> Decision
+
+=> If successful, exchange directly receives funding from Intersect for listing the CNT
+
+=> CNT is listed on the exchange.
+
+
+
+
+
+
+2- Market Making Fee Pool: 
+
+Eligible tokens are:
+
+-Non stable coins: SNEK, IAG, MIN and HOSKY
+
+-Stable coins: USDM, USDA, iUSD, DJED, KINKA (gold backed)
+
+
+Budget: 63,000 USD (126,000 ADA at a reference price of 0.5 USD / ADA).
+
+
+Notes:
+
+- Intersect > Cardano Project > pays Flowdesk monthly retainer for MMAAS business.
+- Flowdesk does NOT receive any funds from the Intersect budget during this process (including no transaction fee, commission, etc.).
+
+- Flow for a Cardano project to request funds for MMAAS with Flowdesk:
+
+=> Cardano projects
+=> Project agrees with Flowdesk on a MMAAS offering
+
+=> Cardano project receives funding from Intersect
+
+=> Flowdesk launches the MMAAS service.
+- **Audit & Oversight Allocation:** 156300 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +106,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

@@ -5,16 +5,25 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: PyCardano
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 314,800 ADA (314800000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** PyCardano is a lightweight Python library that enables developers to interact seamlessly with the Cardano blockchain. It facilitates the creation and signing of transactions without reliance on external serialization tools, thereby simplifying the development process and broadening accessibility for Python developers. Given the dynamic nature of blockchain technology, particularly with Cardano's ongoing protocol upgrades and hard forks, it is imperative to maintain and update PyCardano to ensure continuous compatibility and functionality.​
+
+
+This proposal aims to:
+
+Ensure Compatibility: Regularly update PyCardano to align with the latest Cardano ledger rules and protocol changes, including upcoming hard forks in 2025.​
+
+Enhance Reliability: Promptly identify and resolve bugs within PyCardano to maintain a robust and dependable library for developers for 12 months since the proposal is funded.​
+
+Foster Community Engagement: Collaborate with the Cardano developer community to gather feedback, address issues, and implement improvements effectively.
+- **Audit & Oversight Allocation:** 15740 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +59,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

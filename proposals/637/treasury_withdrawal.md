@@ -5,16 +5,19 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: ZK Bridge
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 700,000 ADA (700000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** Our proposal is building a ZK bridge for Cardano, which we will deploy on the Cardano testnet.
+As part of this initiative, we will define a communication protocol for the bridge, provide the full source code of the smart contracts on the Cardano side, and produce comprehensive technical documentation detailing the protocol between Cardano and any other isomorphic blockchain. 
+We will provide a circuit that enables a relayer to generate the ZK proof that a locking transaction was successfully added to the chain, which can then be verified on the receiving blockchain. This way, any blockchain will be able to implement a ZK bridge with Cardano, leveraging its newly added capability to generate such proofs. This allows for a variety of uses, such as moving assets outside Cardano just by providing the proof that they’ve locked an equivalent amount in the Cardano Smart Contract. The resulting bridge can serve as a generic framework for interoperability between Cardano and any other blockchain willing to implement the corresponding counterpart contracts.
+Furthermore, we will implement contracts in Aiken to mint assets on a Cardano-like (isomorphic) blockchain and deploy them on the Cardano testnet, providing a fully functional proof of concept. These building blocks will enable developers to create bridges between Cardano and other chains with minimal additional effort.
+- **Audit & Oversight Allocation:** 35000 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +53,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+
