@@ -5,16 +5,24 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: Cexplorer.io – Developer-Focused Blockchain Explorer for Cardano
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 266,667 ADA (266667000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** Cexplorer.io is a high-performance, feature-rich blockchain explorer designed specifically for the Cardano ecosystem. It offers deep on-chain insights, real-time data access, and powerful tools for developers, stake pool operators, and users. With over 50,000 monthly users and millions of processed data requests, Cexplorer.io has become a trusted resource in the Cardano community.
+
+This proposal seeks funding to ensure the long-term sustainability of the platform through infrastructure maintenance and continuous improvement. It includes two key areas:
+
+BAU/Maintenance – Covering costs for server infrastructure, backend/frontend development, and bug fixes to ensure stability, uptime, and security.
+
+Enhancements & New Features – Expanding the team with additional developers and a UI designer to deliver a better user experience, improved performance, and new developer-oriented features.
+
+Our mission is to provide a scalable, developer-friendly explorer that empowers the Cardano community with transparent, accessible, and actionable data. By supporting this proposal, Intersect and the broader community invest in critical infrastructure that enhances transparency, encourages innovation, and reduces friction for anyone building on or interacting with Cardano.
+- **Audit & Oversight Allocation:** 13333 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +58,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

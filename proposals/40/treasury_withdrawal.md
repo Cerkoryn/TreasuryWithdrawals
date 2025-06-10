@@ -5,16 +5,16 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: UTxO RPC: Sustaining Cardano Blockchain Integration
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 220,914 ADA (220914000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** This request for support focuses on UTxO RPC (https://utxorpc.org), an interface specification designed to simplify interactions with UTxO-based blockchains. U5C defines standardized methods, data structures, and communication patterns. By providing a range of SDKs, and offering thorough documentation, U5C enhances reusability, interoperability, and performance in blockchain integrations. Currently in its early stages, UTxO RPC is already being adopted by key projects in the Cardano ecosystem, including Lace, Mesh, Amaru, and many others. As an open-source initiative, it welcomes contributions from the community, fostering a collaborative approach to improving blockchain infrastructure. To support its ongoing development, maintenance, and enhancements, we are requesting funding for the following roles: 0.5 FTE blockchain developer and 0.125 FTE tech lead.
+- **Audit & Oversight Allocation:** 11045 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +50,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

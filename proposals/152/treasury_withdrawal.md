@@ -5,16 +5,23 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: OSC Budget Proposal - Paid Open Source Model for Sustainable Development
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 5,885,000 ADA (5885000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** The Open Source Committee in conjunction with the Open Source Office (OSO) seeks to enact a Paid Open Source Model for Sustainable Development in Cardano. A budget proposal of ₳5,885,000 (approx. $2.94M USD), designed to ensure the long-term sustainability of open-source development within the Cardano ecosystem. This initiative will be managed by the Open Source Committee (OSC) pending approval by the DReps, and seeks to address the critical funding gaps that hinder the maintenance, security, and growth of essential open-source projects.
+
+*Key Objectives & Strategic Impact*
+- Sustainable Open-Source Development: Funding for 50+ key projects via the Maintainer Retainer Program ensures continuous innovation and maintenance of mission-critical repositories.
+- Developer Onboarding & Retention: Programs like Cardano Summer of Code, Code For Us, and Developer Advocates provide clear pathways for new and experienced contributors to engage in Cardano development.
+- Security & Infrastructure Reliability: Investments in Bug Bounties, Incident Monitoring, and Tooling Sustainability safeguard the network and strengthen ecosystem resilience.
+- Commercialization & Ecosystem Growth: The Accelerator Research Program and Expanded Project Support Services transition promising projects from incubation to sustainable businesses.
+- Community Engagement & Governance: The OSC ensures transparent fund allocation, performance monitoring, and open participation for contributors across Cardano.
+- **Audit & Oversight Allocation:** 294250 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +57,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

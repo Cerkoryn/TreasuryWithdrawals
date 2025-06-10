@@ -5,16 +5,30 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: A member-based organization for the Cardano ecosystem: Intersect
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 15,750,000 ADA (15750000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** Since its inception, Intersect has played a critical role in Cardano's decentralized transition, including:
+
+- Stewarding the Chang and Plomin upgrades
+Facilitating Cardano’s first Constitution
+- Managing the 2025 roadmap and budget cycle
+Supporting SPOs, DRePs, and CC participants
+- Organizing global workshops, hubs, and governance events
+- Maintaining the Cardano core Haskell codebases through its Open Source Office
+
+Intersect will now not seek retrospective funding for our 2025 work to date. This request covers June 2025 to June 2026.
+
+Request: ₳15.75m allocation ($7.875M USD equivalent)
+- Amount is an allocation, funding is based on USD and to be disbursed quarterly based on exchange rate
+- $500K earmarked for elected committee member stipends
+- Any surplus will be swept back into the Treasury
+- **Audit & Oversight Allocation:** 787500 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +64,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

@@ -5,16 +5,56 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: High-yield RWA Asset for Cardano : Tokenized Real Estate
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 3,000,000 ADA (3000000000000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** Haus is building an open-source Tokenized Home Equity Liquidity Protocol to unlock the $16 trillion in illiquid home equity sitting in U.S. residential real estate. By leveraging blockchain technology, our platform enables homeowners to sell fractional ownership of their home equity, instantly accessing liquidity while allowing investors to gain exposure to real estate appreciation.
+
+We have already prototyped and deployed this model on a private Ethereum blockchain, securing $20 million in Total Value Locked (TVL). With this proposal, we aim to transition HausCoin and the liquidity protocol to Cardano, leveraging its secure, scalable, and cost-effective infrastructure to power a decentralized marketplace for home equity trading.
+
+## Proposal Scope & Objectives
+
+### Tokenizing Home Equity on Cardano:
+- Haus will move its existing liquidity protocol onto Cardano’s mainnet, allowing homeowners to tokenize and sell portions of their home equity directly to investors.  
+- This will create an efficient and scalable real estate-backed asset class, providing homeowners with cash liquidity and investors with a share in home appreciation.
+
+### Launching HausCoin on Cardano:
+- Haus will issue HausCoin, a real estate-backed token enabling home equity trading at scale.  
+- Investors will be able to buy, sell, and trade tokenized real estate assets, unlocking new DeFi use cases for real-world assets (RWAs).
+
+### Leveraging an Existing 30,000-User Waitlist ($4.1B in TVL):
+- Haus already has a 30,000-person waitlist representing $4.1 billion in Total Home Equity Value (TVL).  
+- A fraction of this TVL will be onboarded to Cardano, driving real-world adoption of the protocol.
+
+### Building a Legal Framework for Compliance:
+- Haus will develop a regulatory-compliant framework for issuing and trading tokenized real estate in the U.S., EU and international markets.  
+- Legal and financial structuring will ensure seamless integration with traditional real estate markets.
+
+### Deploying Liquidity Pools & Market Infrastructure:
+- Haus will establish liquidity pools to facilitate instant trading and lending of home equity tokens.  
+- This will support DeFi integration, enabling real estate-backed lending, yield farming, and staking mechanisms.
+
+### Product Completion & Market Expansion:
+- Funding will be used to finalize product development, enhance the user experience, and integrate with key blockchain ecosystems.  
+- Haus will drive market adoption through strategic partnerships, marketing, and investor outreach.
+
+## Why Cardano?
+
+Cardano’s blockchain infrastructure offers a secure, scalable, and cost-effective environment for tokenized assets. By migrating our home equity liquidity protocol and HausCoin to Cardano, we unlock:
+
+- Low-cost transactions for seamless trading and fractional ownership.  
+- Smart contract security for compliant real estate tokenization.  
+- DeFi compatibility, enabling home equity-backed lending and staking.
+
+## Impact & Vision
+
+Haus is pioneering the future of real estate tokenization, transforming home equity into a liquid, tradeable asset class. By launching on Cardano, we aim to bring institutional-grade real estate investing to blockchain, opening new opportunities for homeowners, investors, and the broader DeFi ecosystem.
+- **Audit & Oversight Allocation:** 150000 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +90,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+

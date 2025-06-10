@@ -5,16 +5,23 @@ This template combines the constitutional requirements for Treasury Withdrawals
 and the terms established in the approved Budget Info Action.  Replace each
 placeholder ({{...}}) with the appropriate value for each proposal.
 -->
-# Treasury Withdrawal Proposal: {{ProposalTitle}}
+# Treasury Withdrawal Proposal: OpShin - Python Smart Contracts for Cardano
 
 ## Withdrawal Details
-- **Amount:** {{AdaAmount}} ADA ({{LovelaceAmount}} lovelace)
-- **Destination Address:** {{DestinationAddress}}
-- **Administrator:** {{AdministratorName}}
-- **Purpose / Description:** {{ProposalDescription}}
-- **Audit & Oversight Allocation:** {{AuditAllocation}} ADA
-- **Contractual Dispute Resolution:** {{DisputeResolutionProvision}}
-- **Budget Info Action Reference:** {{BudgetInfoActionCID}}
+- **Amount:** 199,911 ADA (199910890000 lovelace)
+- **Destination Address:** Intersect multi-signature escrow address (TBD)
+- **Administrator:** Intersect
+- **Purpose / Description:** This is OpShin: a toolchain that lets developers construct Cardano smart contracts in Python.  The toolchain comprises several projects that aim to facilitate the development of Smart Contracts and dApps on Cardano. They are largely based on Python, or integrate well with it for maximal accessibility. On top of accessibility, OpShin ensures low transaction cost compared to PlutusTx.
+
+At the time of writing, Python is the second-most used language on GitHub, with 14.75% of the active userbase working with Python, and enjoys a 22.5% year-over-year increase in users; this is driven in part by its utility in data science and machine learning.
+
+Everyone who knows Python can leverage the toolstack available for Python development to build on Cardano; and that is a lot of people, with a lot of tools.
+
+
+OpShin enforces strict typing on the high-level programming: it implements a type system on top of Python type hints. However, all traces of typing are erased during compilation, for a maximum efficiency program. OpShin beats many programming languages when taken to the test for real use-cases.
+- **Audit & Oversight Allocation:** 9995 ADA
+- **Contractual Dispute Resolution:** Binding arbitration per contract
+- **Budget Info Action Reference:** ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm
 - **Net Change Limit Compliance:** Proposal amount is within the then-active NCL per Guardrail TREASURY-02a.
 
 ## References
@@ -50,3 +57,4 @@ placeholder ({{...}}) with the appropriate value for each proposal.
 ## Fund Management & Oversight
 - Funds will be held under a smart-contract framework with multi-signature oversight as per Article IV, Section 2 of the Constitution.
 - Withdrawn funds will be kept in a separate, auditable account and delegated to the predefined auto-abstain voting option.
+
